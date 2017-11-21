@@ -719,6 +719,7 @@ Center for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.
 
 ###  https://w3id.org/def/HXA#修復
 :修復 rdf:type owl:Class ;
+    rdfs:subClassOf owl:Thing ;
     <http://purl.org/dc/terms/description> "This class refers to each time of repaires of the Huangxi Academy."^^xsd:string .
 
 
@@ -728,15 +729,18 @@ Center for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.
 
 
 ###  https://w3id.org/def/HXA#古蹟
-:古蹟 rdf:type owl:Class .
+:古蹟 rdf:type owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#器物家具
-:器物家具 rdf:type owl:Class .
+:器物家具 rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#器物家具代碼
-:器物家具代碼 rdf:type owl:Class .
+:器物家具代碼 rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#大木
@@ -755,11 +759,13 @@ Center for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.
 
 
 ###  https://w3id.org/def/HXA#工藝
-:工藝 rdf:type owl:Class .
+:工藝 rdf:type owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#師匠
-:師匠 rdf:type owl:Class .
+:師匠 rdf:type owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#斗栱元件
@@ -768,35 +774,43 @@ Center for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.
 
 
 ###  https://w3id.org/def/HXA#斗栱元件類型代碼
-:斗栱元件類型代碼 rdf:type owl:Class .
+:斗栱元件類型代碼 rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#時間
-:時間 rdf:type owl:Class .
+:時間 rdf:type owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#材料
-:材料 rdf:type owl:Class .
+:材料 rdf:type owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#柱元件
-:柱元件 rdf:type owl:Class .
+:柱元件 rdf:type owl:Class ;
+     rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#柱類型代碼
-:柱類型代碼 rdf:type owl:Class .
+:柱類型代碼 rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#樑枋楹桁元件
-:樑枋楹桁元件 rdf:type owl:Class .
+:樑枋楹桁元件 rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#樑枋楹桁類型代碼
-:樑枋楹桁類型代碼 rdf:type owl:Class .
+:樑枋楹桁類型代碼 rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#流派
-:流派 rdf:type owl:Class .
+:流派 rdf:type owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#磚砌
@@ -805,31 +819,38 @@ Center for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.
 
 
 ###  https://w3id.org/def/HXA#磚砌類型代碼
-:磚砌類型代碼 rdf:type owl:Class .
+:磚砌類型代碼 rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#空間位置
-:空間位置 rdf:type owl:Class .
+:空間位置 rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#習俗
-:習俗 rdf:type owl:Class .
+:習俗 rdf:type owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#習俗類型代碼
-:習俗類型代碼 rdf:type owl:Class .
+:習俗類型代碼 rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#部位構造
-:部位構造 rdf:type owl:Class .
+:部位構造 rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#部位構造類型代碼
-:部位構造類型代碼 rdf:type owl:Class .
+:部位構造類型代碼 rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#附屬資訊
-:附屬資訊 rdf:type owl:Class .
+:附屬資訊 rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#雕刻
@@ -838,11 +859,13 @@ Center for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.
 
 
 ###  https://w3id.org/def/HXA#雕刻類型代碼
-:雕刻類型代碼 rdf:type owl:Class .
+:雕刻類型代碼 rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/HXA#面層處理與裝飾
-:面層處理與裝飾 rdf:type owl:Class .
+:面層處理與裝飾 rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing .
 
 
 #################################################################
