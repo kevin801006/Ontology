@@ -1,6 +1,6 @@
 <https://w3id.org/def/HXA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/def/HXA> <http://purl.org/dc/elements/1.1/language> "Chinese, English" .
-<https://w3id.org/def/HXA> <http://purl.org/dc/terms/contributor> "Peter Tian-Yuan Shih <http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml>\nAlex Ya-Ning Yen <http://archcute.blogspot.fr/2006/09/blog-post_2694.html>\nChaio-ling Kuo <https://www.rchss.sinica.edu.tw/people/bio.php?PID=261>\nCenter for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.fr/2011/10/blog-post_25.html>" .
+<https://w3id.org/def/HXA> <http://purl.org/dc/terms/contributor> "Peter Tian-Yuan Shih http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml\nAlex Ya-Ning Yen http://archcute.blogspot.fr/2006/09/blog-post_2694.html\nChiao-Ling Kuo https://www.rchss.sinica.edu.tw/people/bio.php?PID=261\nCenter for Cultural Sites Rehabilitation and Development http://icprc.blogspot.fr/2011/10/blog-post_25.html" .
 <https://w3id.org/def/HXA> <http://purl.org/dc/terms/created> "2017-07-17" .
 <https://w3id.org/def/HXA> <http://purl.org/dc/terms/creator> "Yi-Chou LU" .
 <https://w3id.org/def/HXA> <http://purl.org/dc/terms/description> "This ontology demonstrates the relationship between different components of Huangxi Academy as well as properties within the components. First, user can browse the classes and properties for the hierarchy and then browse the individuals for further understanding." .
