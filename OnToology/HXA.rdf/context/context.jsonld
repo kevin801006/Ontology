@@ -60,6 +60,9 @@
       "@id" : "https://w3id.org/def/HXA#has_雕刻類型代碼",
       "@type" : "@id"
     },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
     "topDataProperty" : {
       "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
     },
