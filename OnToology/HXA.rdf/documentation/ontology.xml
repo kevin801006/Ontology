@@ -1073,7 +1073,7 @@ Center for Cultural Sites Rehabilitation and Development &lt;http://icprc.blogsp
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#修復">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class refers to each time of repaires of the Huangxi Academy.</terms:description>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class refers to each time of repaires of the Huangxi Academy.</rdfs:comment>
     </owl:Class>
     
 

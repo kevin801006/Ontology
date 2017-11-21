@@ -720,7 +720,7 @@ Center for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.
 ###  https://w3id.org/def/HXA#修復
 :修復 rdf:type owl:Class ;
     rdfs:subClassOf owl:Thing ;
-    <http://purl.org/dc/terms/description> "This class refers to each time of repaires of the Huangxi Academy."^^xsd:string .
+    rdfs:comment "This class refers to each time of repaires of the Huangxi Academy."^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#剪黏泥塑
