@@ -1072,6 +1072,7 @@ Center for Cultural Sites Rehabilitation and Development &lt;http://icprc.blogsp
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#修復">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class refers to each time of repaires of the Huangxi Academy.</terms:description>
     </owl:Class>
     
@@ -1089,21 +1090,27 @@ Center for Cultural Sites Rehabilitation and Development &lt;http://icprc.blogsp
     <!-- https://w3id.org/def/HXA#古蹟 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#古蹟"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#古蹟">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#器物家具 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#器物家具"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#器物家具">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#器物家具代碼 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#器物家具代碼"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#器物家具代碼">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
@@ -1137,14 +1144,18 @@ Center for Cultural Sites Rehabilitation and Development &lt;http://icprc.blogsp
     <!-- https://w3id.org/def/HXA#工藝 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#工藝"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#工藝">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#師匠 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#師匠"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#師匠">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
@@ -1160,56 +1171,72 @@ Center for Cultural Sites Rehabilitation and Development &lt;http://icprc.blogsp
     <!-- https://w3id.org/def/HXA#斗栱元件類型代碼 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#斗栱元件類型代碼"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#斗栱元件類型代碼">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#時間 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#時間"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#時間">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#材料 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#材料"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#材料">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#柱元件 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#柱元件"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#柱元件">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#柱類型代碼 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#柱類型代碼"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#柱類型代碼">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#樑枋楹桁元件 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#樑枋楹桁元件">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#樑枋楹桁類型代碼 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#樑枋楹桁類型代碼"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#樑枋楹桁類型代碼">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#流派 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#流派"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#流派">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
@@ -1225,49 +1252,63 @@ Center for Cultural Sites Rehabilitation and Development &lt;http://icprc.blogsp
     <!-- https://w3id.org/def/HXA#磚砌類型代碼 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#磚砌類型代碼"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#磚砌類型代碼">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#空間位置 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#空間位置"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#空間位置">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#習俗 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#習俗"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#習俗">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#習俗類型代碼 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#習俗類型代碼"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#習俗類型代碼">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#部位構造 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#部位構造"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#部位構造">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#部位構造類型代碼 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#部位構造類型代碼"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#部位構造類型代碼">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#附屬資訊 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#附屬資訊"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#附屬資訊">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
@@ -1283,14 +1324,18 @@ Center for Cultural Sites Rehabilitation and Development &lt;http://icprc.blogsp
     <!-- https://w3id.org/def/HXA#雕刻類型代碼 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#雕刻類型代碼"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#雕刻類型代碼">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/def/HXA#面層處理與裝飾 -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/HXA#面層處理與裝飾"/>
+    <owl:Class rdf:about="https://w3id.org/def/HXA#面層處理與裝飾">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
