@@ -8,10 +8,10 @@
 
 <https://w3id.org/def/HXA> rdf:type owl:Ontology ;
                             <http://purl.org/dc/elements/1.1/language> "Chinese, English"^^xsd:string ;
-                            <http://purl.org/dc/terms/contributor> """Peter Tian-Yuan Shih <http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml>
-Alex Ya-Ning Yen <http://archcute.blogspot.fr/2006/09/blog-post_2694.html>
-Chaio-ling Kuo <https://www.rchss.sinica.edu.tw/people/bio.php?PID=261>
-Center for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.fr/2011/10/blog-post_25.html>"""^^xsd:string ;
+                            <http://purl.org/dc/terms/contributor> """Peter Tian-Yuan Shih http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml
+Alex Ya-Ning Yen http://archcute.blogspot.fr/2006/09/blog-post_2694.html
+Chaio-ling Kuo https://www.rchss.sinica.edu.tw/people/bio.php?PID=261
+Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.fr/2011/10/blog-post_25.html"""^^xsd:string ;
                             <http://purl.org/dc/terms/created> "2017-07-17"^^xsd:string ;
                             <http://purl.org/dc/terms/creator> "Yi-Chou LU"^^xsd:string ;
                             <http://purl.org/dc/terms/description> "This ontology demonstrates the relationship between different components of Huangxi Academy as well as properties within the components. First, user can browse the classes and properties for the hierarchy and then browse the individuals for further understanding."^^xsd:string ;

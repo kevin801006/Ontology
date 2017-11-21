@@ -12,10 +12,10 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://w3id.org/def/HXA">
         <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese, English</dc:language>
-        <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Tian-Yuan Shih &lt;http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml&gt;
-Alex Ya-Ning Yen &lt;http://archcute.blogspot.fr/2006/09/blog-post_2694.html&gt;
-Chaio-ling Kuo &lt;https://www.rchss.sinica.edu.tw/people/bio.php?PID=261&gt;
-Center for Cultural Sites Rehabilitation and Development &lt;http://icprc.blogspot.fr/2011/10/blog-post_25.html&gt;</terms:contributor>
+        <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Tian-Yuan Shih http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml
+Alex Ya-Ning Yen http://archcute.blogspot.fr/2006/09/blog-post_2694.html
+Chaio-ling Kuo https://www.rchss.sinica.edu.tw/people/bio.php?PID=261
+Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.fr/2011/10/blog-post_25.html</terms:contributor>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-07-17</terms:created>
         <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yi-Chou LU</terms:creator>
         <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology demonstrates the relationship between different components of Huangxi Academy as well as properties within the components. First, user can browse the classes and properties for the hierarchy and then browse the individuals for further understanding.</terms:description>
