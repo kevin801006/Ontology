@@ -20,7 +20,7 @@
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-07-17</terms:created>
         <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Tian-Yuan Shih http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml
 Alex Ya-Ning Yen http://archcute.blogspot.fr/2006/09/blog-post_2694.html
-Chaio-ling Kuo https://www.rchss.sinica.edu.tw/people/bio.php?PID=261
+Chiao-Ling Kuo https://www.rchss.sinica.edu.tw/people/bio.php?PID=261
 Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.fr/2011/10/blog-post_25.html</terms:contributor>
     </owl:Ontology>
     
