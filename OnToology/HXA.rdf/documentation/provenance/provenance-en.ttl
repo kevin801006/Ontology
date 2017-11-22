@@ -4,10 +4,10 @@
 <..\index-en.html> a prov:Entity;
 	 dc:title "The Huangxi Academy Ontology";
 	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Yi-Chou LU".];
-	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Peter Tian-Yuan Shih <http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml>
-Alex Ya-Ning Yen <http://archcute.blogspot.fr/2006/09/blog-post_2694.html>
-Chaio-ling Kuo <https://www.rchss.sinica.edu.tw/people/bio.php?PID=261>
-Center for Cultural Sites Rehabilitation and Development <http://icprc.blogspot.fr/2011/10/blog-post_25.html>".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Peter Tian-Yuan Shih
+Alex Ya-Ning Yen
+Chiao-Ling Kuo
+Center for Cultural Sites Rehabilitation and Development".];
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 	 prov:wasGeneratedAt "2017-07-17";
 .
