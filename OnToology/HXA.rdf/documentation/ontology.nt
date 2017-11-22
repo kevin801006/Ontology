@@ -1,11 +1,11 @@
 <https://w3id.org/def/HXA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/def/HXA> <http://purl.org/dc/elements/1.1/language> "Chinese, English" .
-<https://w3id.org/def/HXA> <http://purl.org/dc/terms/contributor> "Peter Tian-Yuan Shih http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml\nAlex Ya-Ning Yen http://archcute.blogspot.fr/2006/09/blog-post_2694.html\nChiao-Ling Kuo https://www.rchss.sinica.edu.tw/people/bio.php?PID=261\nCenter for Cultural Sites Rehabilitation and Development http://icprc.blogspot.fr/2011/10/blog-post_25.html" .
+<https://w3id.org/def/HXA> <http://purl.org/dc/terms/contributor> "Peter Tian-Yuan Shih\nAlex Ya-Ning Yen\nChiao-Ling Kuo\nCenter for Cultural Sites Rehabilitation and Development" .
 <https://w3id.org/def/HXA> <http://purl.org/dc/terms/created> "2017-07-17" .
 <https://w3id.org/def/HXA> <http://purl.org/dc/terms/creator> "Yi-Chou LU" .
 <https://w3id.org/def/HXA> <http://purl.org/dc/terms/description> "This ontology demonstrates the relationship between different components of Huangxi Academy as well as properties within the components. First, user can browse the classes and properties for the hierarchy and then browse the individuals for further understanding." .
 <https://w3id.org/def/HXA> <http://purl.org/dc/terms/title> "The Huangxi Academy Ontology" .
-<https://w3id.org/def/HXA> <http://www.w3.org/2000/01/rdf-schema#comment> "A prototype of ontology of Chinese built heritage. The studying case is Huangxi Academy in Taiwan. http://purl.org/net/ylu/HXA" .
+<https://w3id.org/def/HXA> <http://www.w3.org/2000/01/rdf-schema#comment> "A prototype of ontology of Chinese built heritage. The studying case is Huangxi Academy in Taiwan." .
 <https://w3id.org/def/HXA> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # 
@@ -647,8 +647,8 @@
 # 
 # https://w3id.org/def/HXA#修復
 <https://w3id.org/def/HXA#\u4FEE\u5FA9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u4FEE\u5FA9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
 <https://w3id.org/def/HXA#\u4FEE\u5FA9> <http://www.w3.org/2000/01/rdf-schema#comment> "This class refers to each time of repaires of the Huangxi Academy." .
+<https://w3id.org/def/HXA#\u4FEE\u5FA9> <http://www.w3.org/2000/01/rdf-schema#label> "\u4FEE\u5FA9" .
 # 
 # https://w3id.org/def/HXA#剪黏泥塑
 <https://w3id.org/def/HXA#\u526A\u9ECF\u6CE5\u5851> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -656,15 +656,15 @@
 # 
 # https://w3id.org/def/HXA#古蹟
 <https://w3id.org/def/HXA#\u53E4\u8E5F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u53E4\u8E5F> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u53E4\u8E5F> <http://www.w3.org/2000/01/rdf-schema#label> "\u53E4\u8E5F" .
 # 
 # https://w3id.org/def/HXA#器物家具
 <https://w3id.org/def/HXA#\u5668\u7269\u5BB6\u5177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u5668\u7269\u5BB6\u5177> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u5668\u7269\u5BB6\u5177> <http://www.w3.org/2000/01/rdf-schema#label> "\u5668\u7269\u5BB6\u5177" .
 # 
 # https://w3id.org/def/HXA#器物家具代碼
 <https://w3id.org/def/HXA#\u5668\u7269\u5BB6\u5177\u4EE3\u78BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u5668\u7269\u5BB6\u5177\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u5668\u7269\u5BB6\u5177\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#label> "\u5668\u7269\u5BB6\u5177\u4EE3\u78BC" .
 # 
 # https://w3id.org/def/HXA#大木
 <https://w3id.org/def/HXA#\u5927\u6728> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -680,11 +680,10 @@
 # 
 # https://w3id.org/def/HXA#工藝
 <https://w3id.org/def/HXA#\u5DE5\u85DD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u5DE5\u85DD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u5DE5\u85DD> <http://www.w3.org/2000/01/rdf-schema#label> "\u5DE5\u85DD" .
 # 
 # https://w3id.org/def/HXA#師匠
 <https://w3id.org/def/HXA#\u5E2B\u5320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u5E2B\u5320> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
 <https://w3id.org/def/HXA#\u5E2B\u5320> <http://www.w3.org/2000/01/rdf-schema#label> "\u5E2B\u5320" .
 # 
 # https://w3id.org/def/HXA#斗栱元件
@@ -693,35 +692,35 @@
 # 
 # https://w3id.org/def/HXA#斗栱元件類型代碼
 <https://w3id.org/def/HXA#\u6597\u6831\u5143\u4EF6\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u6597\u6831\u5143\u4EF6\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u6597\u6831\u5143\u4EF6\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#label> "\u6597\u6831\u5143\u4EF6\u985E\u578B\u4EE3\u78BC" .
 # 
 # https://w3id.org/def/HXA#時間
 <https://w3id.org/def/HXA#\u6642\u9593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u6642\u9593> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u6642\u9593> <http://www.w3.org/2000/01/rdf-schema#label> "\u6642\u9593" .
 # 
 # https://w3id.org/def/HXA#材料
 <https://w3id.org/def/HXA#\u6750\u6599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u6750\u6599> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u6750\u6599> <http://www.w3.org/2000/01/rdf-schema#label> "\u6750\u6599" .
 # 
 # https://w3id.org/def/HXA#柱元件
 <https://w3id.org/def/HXA#\u67F1\u5143\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u67F1\u5143\u4EF6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u67F1\u5143\u4EF6> <http://www.w3.org/2000/01/rdf-schema#label> "\u67F1\u5143\u4EF6" .
 # 
 # https://w3id.org/def/HXA#柱類型代碼
 <https://w3id.org/def/HXA#\u67F1\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u67F1\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u67F1\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#label> "\u67F1\u985E\u578B\u4EE3\u78BC" .
 # 
 # https://w3id.org/def/HXA#樑枋楹桁元件
 <https://w3id.org/def/HXA#\u6A11\u678B\u6979\u6841\u5143\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u6A11\u678B\u6979\u6841\u5143\u4EF6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u6A11\u678B\u6979\u6841\u5143\u4EF6> <http://www.w3.org/2000/01/rdf-schema#label> "\u6A11\u678B\u6979\u6841\u5143\u4EF6" .
 # 
 # https://w3id.org/def/HXA#樑枋楹桁類型代碼
 <https://w3id.org/def/HXA#\u6A11\u678B\u6979\u6841\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u6A11\u678B\u6979\u6841\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u6A11\u678B\u6979\u6841\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#label> "\u6A11\u678B\u6979\u6841\u985E\u578B\u4EE3\u78BC" .
 # 
 # https://w3id.org/def/HXA#流派
 <https://w3id.org/def/HXA#\u6D41\u6D3E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u6D41\u6D3E> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u6D41\u6D3E> <http://www.w3.org/2000/01/rdf-schema#label> "\u6D41\u6D3E" .
 # 
 # https://w3id.org/def/HXA#磚砌
 <https://w3id.org/def/HXA#\u78DA\u780C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -729,31 +728,31 @@
 # 
 # https://w3id.org/def/HXA#磚砌類型代碼
 <https://w3id.org/def/HXA#\u78DA\u780C\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u78DA\u780C\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u78DA\u780C\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#label> "\u78DA\u780C\u985E\u578B\u4EE3\u78BC" .
 # 
 # https://w3id.org/def/HXA#空間位置
 <https://w3id.org/def/HXA#\u7A7A\u9593\u4F4D\u7F6E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u7A7A\u9593\u4F4D\u7F6E> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u7A7A\u9593\u4F4D\u7F6E> <http://www.w3.org/2000/01/rdf-schema#label> "\u7A7A\u9593\u4F4D\u7F6E" .
 # 
 # https://w3id.org/def/HXA#習俗
 <https://w3id.org/def/HXA#\u7FD2\u4FD7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u7FD2\u4FD7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u7FD2\u4FD7> <http://www.w3.org/2000/01/rdf-schema#label> "\u7FD2\u4FD7" .
 # 
 # https://w3id.org/def/HXA#習俗類型代碼
 <https://w3id.org/def/HXA#\u7FD2\u4FD7\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u7FD2\u4FD7\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u7FD2\u4FD7\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#label> "\u7FD2\u4FD7\u985E\u578B\u4EE3\u78BC" .
 # 
 # https://w3id.org/def/HXA#部位構造
 <https://w3id.org/def/HXA#\u90E8\u4F4D\u69CB\u9020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u90E8\u4F4D\u69CB\u9020> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u90E8\u4F4D\u69CB\u9020> <http://www.w3.org/2000/01/rdf-schema#label> "\u90E8\u4F4D\u69CB\u9020" .
 # 
 # https://w3id.org/def/HXA#部位構造類型代碼
 <https://w3id.org/def/HXA#\u90E8\u4F4D\u69CB\u9020\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u90E8\u4F4D\u69CB\u9020\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u90E8\u4F4D\u69CB\u9020\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#label> "\u90E8\u4F4D\u69CB\u9020\u985E\u578B\u4EE3\u78BC" .
 # 
 # https://w3id.org/def/HXA#附屬資訊
 <https://w3id.org/def/HXA#\u9644\u5C6C\u8CC7\u8A0A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u9644\u5C6C\u8CC7\u8A0A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u9644\u5C6C\u8CC7\u8A0A> <http://www.w3.org/2000/01/rdf-schema#label> "\u9644\u5C6C\u8CC7\u8A0A" .
 # 
 # https://w3id.org/def/HXA#雕刻
 <https://w3id.org/def/HXA#\u96D5\u523B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -761,11 +760,11 @@
 # 
 # https://w3id.org/def/HXA#雕刻類型代碼
 <https://w3id.org/def/HXA#\u96D5\u523B\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u96D5\u523B\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u96D5\u523B\u985E\u578B\u4EE3\u78BC> <http://www.w3.org/2000/01/rdf-schema#label> "\u96D5\u523B\u985E\u578B\u4EE3\u78BC" .
 # 
 # https://w3id.org/def/HXA#面層處理與裝飾
 <https://w3id.org/def/HXA#\u9762\u5C64\u8655\u7406\u8207\u88DD\u98FE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/HXA#\u9762\u5C64\u8655\u7406\u8207\u88DD\u98FE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u9762\u5C64\u8655\u7406\u8207\u88DD\u98FE> <http://www.w3.org/2000/01/rdf-schema#label> "\u9762\u5C64\u8655\u7406\u8207\u88DD\u98FE" .
 # 
 # 
 # 

@@ -12,15 +12,15 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://w3id.org/def/HXA">
         <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese, English</dc:language>
-        <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Tian-Yuan Shih http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml
-Alex Ya-Ning Yen http://archcute.blogspot.fr/2006/09/blog-post_2694.html
-Chiao-Ling Kuo https://www.rchss.sinica.edu.tw/people/bio.php?PID=261
-Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.fr/2011/10/blog-post_25.html</terms:contributor>
+        <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Tian-Yuan Shih
+Alex Ya-Ning Yen
+Chiao-Ling Kuo
+Center for Cultural Sites Rehabilitation and Development</terms:contributor>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-07-17</terms:created>
         <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yi-Chou LU</terms:creator>
         <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology demonstrates the relationship between different components of Huangxi Academy as well as properties within the components. First, user can browse the classes and properties for the hierarchy and then browse the individuals for further understanding.</terms:description>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Huangxi Academy Ontology</terms:title>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A prototype of ontology of Chinese built heritage. The studying case is Huangxi Academy in Taiwan. http://purl.org/net/ylu/HXA</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A prototype of ontology of Chinese built heritage. The studying case is Huangxi Academy in Taiwan.</rdfs:comment>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -1072,8 +1072,8 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#修復">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class refers to each time of repaires of the Huangxi Academy.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">修復</rdfs:label>
     </owl:Class>
     
 
@@ -1091,7 +1091,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#古蹟">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">古蹟</rdfs:label>
     </owl:Class>
     
 
@@ -1100,7 +1100,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#器物家具">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">器物家具</rdfs:label>
     </owl:Class>
     
 
@@ -1109,7 +1109,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#器物家具代碼">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">器物家具代碼</rdfs:label>
     </owl:Class>
     
 
@@ -1145,7 +1145,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#工藝">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">工藝</rdfs:label>
     </owl:Class>
     
 
@@ -1154,7 +1154,6 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#師匠">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">師匠</rdfs:label>
     </owl:Class>
     
@@ -1173,7 +1172,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#斗栱元件類型代碼">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">斗栱元件類型代碼</rdfs:label>
     </owl:Class>
     
 
@@ -1182,7 +1181,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#時間">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">時間</rdfs:label>
     </owl:Class>
     
 
@@ -1191,7 +1190,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#材料">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">材料</rdfs:label>
     </owl:Class>
     
 
@@ -1200,7 +1199,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#柱元件">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柱元件</rdfs:label>
     </owl:Class>
     
 
@@ -1209,7 +1208,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#柱類型代碼">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柱類型代碼</rdfs:label>
     </owl:Class>
     
 
@@ -1218,7 +1217,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#樑枋楹桁元件">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">樑枋楹桁元件</rdfs:label>
     </owl:Class>
     
 
@@ -1227,7 +1226,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#樑枋楹桁類型代碼">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">樑枋楹桁類型代碼</rdfs:label>
     </owl:Class>
     
 
@@ -1236,7 +1235,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#流派">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">流派</rdfs:label>
     </owl:Class>
     
 
@@ -1254,7 +1253,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#磚砌類型代碼">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磚砌類型代碼</rdfs:label>
     </owl:Class>
     
 
@@ -1263,7 +1262,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#空間位置">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">空間位置</rdfs:label>
     </owl:Class>
     
 
@@ -1272,7 +1271,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#習俗">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">習俗</rdfs:label>
     </owl:Class>
     
 
@@ -1281,7 +1280,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#習俗類型代碼">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">習俗類型代碼</rdfs:label>
     </owl:Class>
     
 
@@ -1290,7 +1289,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#部位構造">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">部位構造</rdfs:label>
     </owl:Class>
     
 
@@ -1299,7 +1298,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#部位構造類型代碼">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">部位構造類型代碼</rdfs:label>
     </owl:Class>
     
 
@@ -1308,7 +1307,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#附屬資訊">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">附屬資訊</rdfs:label>
     </owl:Class>
     
 
@@ -1326,7 +1325,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#雕刻類型代碼">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">雕刻類型代碼</rdfs:label>
     </owl:Class>
     
 
@@ -1335,7 +1334,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#面層處理與裝飾">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">面層處理與裝飾</rdfs:label>
     </owl:Class>
     
 
