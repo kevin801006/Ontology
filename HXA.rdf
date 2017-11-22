@@ -1061,6 +1061,7 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#師匠">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>師匠</rdfs:label>
     </owl:Class>
     
 
