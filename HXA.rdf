@@ -12,7 +12,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://w3id.org/def/HXA">
         <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese, English</dc:language>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A prototype of ontology of Chinese built heritage. The studying case is Huangxi Academy in Taiwan. http://purl.org/net/ylu/HXA</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A prototype of ontology of Chinese built heritage. The studying case is Huangxi Academy in Taiwan.>
         <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yi-Chou LU</terms:creator>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</owl:versionInfo>
         <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Tian-Yuan Shih http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml
