@@ -765,7 +765,8 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 ###  https://w3id.org/def/HXA#師匠
 :師匠 rdf:type owl:Class ;
-    rdfs:subClassOf owl:Thing .
+    rdfs:subClassOf owl:Thing ;
+    rdfs:label "師匠"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#斗栱元件
