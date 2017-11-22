@@ -8,15 +8,15 @@
 
 <https://w3id.org/def/HXA> rdf:type owl:Ontology ;
                             <http://purl.org/dc/elements/1.1/language> "Chinese, English"^^xsd:string ;
-                            <http://purl.org/dc/terms/contributor> """Peter Tian-Yuan Shih http://www.cv.nctu.edu.tw/chinese/teacher/teacher06.shtml
-Alex Ya-Ning Yen http://archcute.blogspot.fr/2006/09/blog-post_2694.html
-Chiao-Ling Kuo https://www.rchss.sinica.edu.tw/people/bio.php?PID=261
-Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.fr/2011/10/blog-post_25.html"""^^xsd:string ;
+                            <http://purl.org/dc/terms/contributor> """Peter Tian-Yuan Shih
+Alex Ya-Ning Yen
+Chiao-Ling Kuo
+Center for Cultural Sites Rehabilitation and Development"""^^xsd:string ;
                             <http://purl.org/dc/terms/created> "2017-07-17"^^xsd:string ;
                             <http://purl.org/dc/terms/creator> "Yi-Chou LU"^^xsd:string ;
                             <http://purl.org/dc/terms/description> "This ontology demonstrates the relationship between different components of Huangxi Academy as well as properties within the components. First, user can browse the classes and properties for the hierarchy and then browse the individuals for further understanding."^^xsd:string ;
                             <http://purl.org/dc/terms/title> "The Huangxi Academy Ontology"^^xsd:string ;
-                            rdfs:comment "A prototype of ontology of Chinese built heritage. The studying case is Huangxi Academy in Taiwan. http://purl.org/net/ylu/HXA"^^xsd:string ;
+                            rdfs:comment "A prototype of ontology of Chinese built heritage. The studying case is Huangxi Academy in Taiwan."^^xsd:string ;
                             owl:versionInfo "1.0"^^xsd:double .
 
 #################################################################
@@ -719,8 +719,8 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 ###  https://w3id.org/def/HXA#修復
 :修復 rdf:type owl:Class ;
-    rdfs:subClassOf owl:Thing ;
-    rdfs:comment "This class refers to each time of repaires of the Huangxi Academy."^^xsd:string .
+    rdfs:comment "This class refers to each time of repaires of the Huangxi Academy."^^xsd:string ;
+    rdfs:label "修復"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#剪黏泥塑
@@ -730,17 +730,17 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 ###  https://w3id.org/def/HXA#古蹟
 :古蹟 rdf:type owl:Class ;
-    rdfs:subClassOf owl:Thing .
+    rdfs:label "古蹟"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#器物家具
 :器物家具 rdf:type owl:Class ;
-      rdfs:subClassOf owl:Thing .
+      rdfs:label "器物家具"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#器物家具代碼
 :器物家具代碼 rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing .
+        rdfs:label "器物家具代碼"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#大木
@@ -760,12 +760,11 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 ###  https://w3id.org/def/HXA#工藝
 :工藝 rdf:type owl:Class ;
-    rdfs:subClassOf owl:Thing .
+    rdfs:label "工藝"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#師匠
 :師匠 rdf:type owl:Class ;
-    rdfs:subClassOf owl:Thing ;
     rdfs:label "師匠"^^xsd:string .
 
 
@@ -776,42 +775,42 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 ###  https://w3id.org/def/HXA#斗栱元件類型代碼
 :斗栱元件類型代碼 rdf:type owl:Class ;
-          rdfs:subClassOf owl:Thing .
+          rdfs:label "斗栱元件類型代碼"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#時間
 :時間 rdf:type owl:Class ;
-    rdfs:subClassOf owl:Thing .
+    rdfs:label "時間"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#材料
 :材料 rdf:type owl:Class ;
-    rdfs:subClassOf owl:Thing .
+    rdfs:label "材料"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#柱元件
 :柱元件 rdf:type owl:Class ;
-     rdfs:subClassOf owl:Thing .
+     rdfs:label "柱元件"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#柱類型代碼
 :柱類型代碼 rdf:type owl:Class ;
-       rdfs:subClassOf owl:Thing .
+       rdfs:label "柱類型代碼"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#樑枋楹桁元件
 :樑枋楹桁元件 rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing .
+        rdfs:label "樑枋楹桁元件"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#樑枋楹桁類型代碼
 :樑枋楹桁類型代碼 rdf:type owl:Class ;
-          rdfs:subClassOf owl:Thing .
+          rdfs:label "樑枋楹桁類型代碼"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#流派
 :流派 rdf:type owl:Class ;
-    rdfs:subClassOf owl:Thing .
+    rdfs:label "流派"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#磚砌
@@ -821,37 +820,37 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 ###  https://w3id.org/def/HXA#磚砌類型代碼
 :磚砌類型代碼 rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing .
+        rdfs:label "磚砌類型代碼"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#空間位置
 :空間位置 rdf:type owl:Class ;
-      rdfs:subClassOf owl:Thing .
+      rdfs:label "空間位置"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#習俗
 :習俗 rdf:type owl:Class ;
-    rdfs:subClassOf owl:Thing .
+    rdfs:label "習俗"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#習俗類型代碼
 :習俗類型代碼 rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing .
+        rdfs:label "習俗類型代碼"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#部位構造
 :部位構造 rdf:type owl:Class ;
-      rdfs:subClassOf owl:Thing .
+      rdfs:label "部位構造"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#部位構造類型代碼
 :部位構造類型代碼 rdf:type owl:Class ;
-          rdfs:subClassOf owl:Thing .
+          rdfs:label "部位構造類型代碼"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#附屬資訊
 :附屬資訊 rdf:type owl:Class ;
-      rdfs:subClassOf owl:Thing .
+      rdfs:label "附屬資訊"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#雕刻
@@ -861,12 +860,12 @@ Center for Cultural Sites Rehabilitation and Development http://icprc.blogspot.f
 
 ###  https://w3id.org/def/HXA#雕刻類型代碼
 :雕刻類型代碼 rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing .
+        rdfs:label "雕刻類型代碼"^^xsd:string .
 
 
 ###  https://w3id.org/def/HXA#面層處理與裝飾
 :面層處理與裝飾 rdf:type owl:Class ;
-         rdfs:subClassOf owl:Thing .
+         rdfs:label "面層處理與裝飾"^^xsd:string .
 
 
 #################################################################
