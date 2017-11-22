@@ -685,6 +685,7 @@
 # https://w3id.org/def/HXA#師匠
 <https://w3id.org/def/HXA#\u5E2B\u5320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/HXA#\u5E2B\u5320> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/HXA#\u5E2B\u5320> <http://www.w3.org/2000/01/rdf-schema#label> "\u5E2B\u5320" .
 # 
 # https://w3id.org/def/HXA#斗栱元件
 <https://w3id.org/def/HXA#\u6597\u6831\u5143\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
