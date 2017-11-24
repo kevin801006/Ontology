@@ -1,0 +1,415 @@
+{
+  "@context" : {
+    "abstract" : {
+      "@id" : "http://purl.org/dc/terms/abstract"
+    },
+    "聯絡人" : {
+      "@id" : "https://w3id.org/def/HXA#聯絡人",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "面層處理與裝飾ID" : {
+      "@id" : "https://w3id.org/def/HXA#面層處理與裝飾ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "類型ID" : {
+      "@id" : "https://w3id.org/def/HXA#類型ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "斗栱元件類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#斗栱元件類型代碼"
+    },
+    "總元件ID" : {
+      "@id" : "https://w3id.org/def/HXA#總元件ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "圖片" : {
+      "@id" : "https://w3id.org/def/HXA#圖片",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "part_of_部位構造" : {
+      "@id" : "https://w3id.org/def/HXA#part_of_部位構造",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "特色" : {
+      "@id" : "https://w3id.org/def/HXA#特色",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "名稱" : {
+      "@id" : "https://w3id.org/def/HXA#名稱",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "類型" : {
+      "@id" : "https://w3id.org/def/HXA#類型",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "日期" : {
+      "@id" : "https://w3id.org/def/HXA#日期",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "has_磚砌類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#has_磚砌類型代碼",
+      "@type" : "@id"
+    },
+    "has_雕刻類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#has_雕刻類型代碼",
+      "@type" : "@id"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "has_樑枋楹桁代碼" : {
+      "@id" : "https://w3id.org/def/HXA#has_樑枋楹桁代碼",
+      "@type" : "@id"
+    },
+    "結構形式" : {
+      "@id" : "https://w3id.org/def/HXA#結構形式",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "面層處理與裝飾" : {
+      "@id" : "https://w3id.org/def/HXA#面層處理與裝飾"
+    },
+    "主要構造" : {
+      "@id" : "https://w3id.org/def/HXA#主要構造",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "樑枋楹桁類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#樑枋楹桁類型代碼"
+    },
+    "材料" : {
+      "@id" : "https://w3id.org/def/HXA#材料"
+    },
+    "has_材質" : {
+      "@id" : "https://w3id.org/def/HXA#has_材質",
+      "@type" : "@id"
+    },
+    "說明" : {
+      "@id" : "https://w3id.org/def/HXA#說明",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "has_器物家具代碼" : {
+      "@id" : "https://w3id.org/def/HXA#has_器物家具代碼",
+      "@type" : "@id"
+    },
+    "雕刻" : {
+      "@id" : "https://w3id.org/def/HXA#雕刻"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "工具" : {
+      "@id" : "https://w3id.org/def/HXA#工具"
+    },
+    "空間擺設" : {
+      "@id" : "https://w3id.org/def/HXA#空間擺設",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "工程類別" : {
+      "@id" : "https://w3id.org/def/HXA#工程類別",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "聯絡地址" : {
+      "@id" : "https://w3id.org/def/HXA#聯絡地址",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "has_斗栱元件類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#has_斗栱元件類型代碼",
+      "@type" : "@id"
+    },
+    "材質ID" : {
+      "@id" : "https://w3id.org/def/HXA#材質ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "聯絡單位" : {
+      "@id" : "https://w3id.org/def/HXA#聯絡單位",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "空間位置ID" : {
+      "@id" : "https://w3id.org/def/HXA#空間位置ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "has_習俗" : {
+      "@id" : "https://w3id.org/def/HXA#has_習俗",
+      "@type" : "@id"
+    },
+    "流派" : {
+      "@id" : "https://w3id.org/def/HXA#流派"
+    },
+    "has_修復" : {
+      "@id" : "https://w3id.org/def/HXA#has_修復",
+      "@type" : "@id"
+    },
+    "守護神" : {
+      "@id" : "https://w3id.org/def/HXA#守護神",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "has_時間" : {
+      "@id" : "https://w3id.org/def/HXA#has_時間",
+      "@type" : "@id"
+    },
+    "古蹟" : {
+      "@id" : "https://w3id.org/def/HXA#古蹟"
+    },
+    "has_部位構造代碼" : {
+      "@id" : "https://w3id.org/def/HXA#has_部位構造代碼",
+      "@type" : "@id"
+    },
+    "柱元件" : {
+      "@id" : "https://w3id.org/def/HXA#柱元件"
+    },
+    "師匠" : {
+      "@id" : "https://w3id.org/def/HXA#師匠"
+    },
+    "習俗ID" : {
+      "@id" : "https://w3id.org/def/HXA#習俗ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "附屬資訊ID" : {
+      "@id" : "https://w3id.org/def/HXA#附屬資訊ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "流派ID" : {
+      "@id" : "https://w3id.org/def/HXA#流派ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "has_空間位置" : {
+      "@id" : "https://w3id.org/def/HXA#has_空間位置",
+      "@type" : "@id"
+    },
+    "磚砌ID" : {
+      "@id" : "https://w3id.org/def/HXA#磚砌ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "has_工具" : {
+      "@id" : "https://w3id.org/def/HXA#has_工具",
+      "@type" : "@id"
+    },
+    "has_附屬資訊" : {
+      "@id" : "https://w3id.org/def/HXA#has_附屬資訊",
+      "@type" : "@id"
+    },
+    "工藝ID" : {
+      "@id" : "https://w3id.org/def/HXA#工藝ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "職別" : {
+      "@id" : "https://w3id.org/def/HXA#職別",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "發源地" : {
+      "@id" : "https://w3id.org/def/HXA#發源地",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "工具ID" : {
+      "@id" : "https://w3id.org/def/HXA#工具ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "has_柱元件代碼" : {
+      "@id" : "https://w3id.org/def/HXA#has_柱元件代碼",
+      "@type" : "@id"
+    },
+    "建築物次分區" : {
+      "@id" : "https://w3id.org/def/HXA#建築物次分區",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "剪黏泥塑ID" : {
+      "@id" : "https://w3id.org/def/HXA#剪黏泥塑ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "part_of_古蹟" : {
+      "@id" : "https://w3id.org/def/HXA#part_of_古蹟",
+      "@type" : "@id"
+    },
+    "空間位置" : {
+      "@id" : "https://w3id.org/def/HXA#空間位置"
+    },
+    "習俗" : {
+      "@id" : "https://w3id.org/def/HXA#習俗"
+    },
+    "修復" : {
+      "@id" : "https://w3id.org/def/HXA#修復"
+    },
+    "師匠ID" : {
+      "@id" : "https://w3id.org/def/HXA#師匠ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "RevitID" : {
+      "@id" : "https://w3id.org/def/HXA#RevitID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "用途" : {
+      "@id" : "https://w3id.org/def/HXA#用途",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "習俗類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#習俗類型代碼"
+    },
+    "古蹟ID" : {
+      "@id" : "https://w3id.org/def/HXA#古蹟ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "工藝" : {
+      "@id" : "https://w3id.org/def/HXA#工藝"
+    },
+    "附屬資訊" : {
+      "@id" : "https://w3id.org/def/HXA#附屬資訊"
+    },
+    "雕刻類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#雕刻類型代碼"
+    },
+    "大木" : {
+      "@id" : "https://w3id.org/def/HXA#大木"
+    },
+    "斗栱元件" : {
+      "@id" : "https://w3id.org/def/HXA#斗栱元件"
+    },
+    "title" : {
+      "@id" : "http://www.co-ode.org/ontologies/ont.owl#title"
+    },
+    "創建年代" : {
+      "@id" : "https://w3id.org/def/HXA#創建年代",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "使用者" : {
+      "@id" : "https://w3id.org/def/HXA#使用者",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "小木" : {
+      "@id" : "https://w3id.org/def/HXA#小木"
+    },
+    "地址" : {
+      "@id" : "https://w3id.org/def/HXA#地址",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "布局介紹" : {
+      "@id" : "https://w3id.org/def/HXA#布局介紹",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "修復ID" : {
+      "@id" : "https://w3id.org/def/HXA#修復ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "磚砌類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#磚砌類型代碼"
+    },
+    "剪黏泥塑" : {
+      "@id" : "https://w3id.org/def/HXA#剪黏泥塑"
+    },
+    "器物家具" : {
+      "@id" : "https://w3id.org/def/HXA#器物家具"
+    },
+    "has_面層處理與裝飾" : {
+      "@id" : "https://w3id.org/def/HXA#has_面層處理與裝飾",
+      "@type" : "@id"
+    },
+    "連絡電話" : {
+      "@id" : "https://w3id.org/def/HXA#連絡電話",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "主管機關名稱" : {
+      "@id" : "https://w3id.org/def/HXA#主管機關名稱",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "現況" : {
+      "@id" : "https://w3id.org/def/HXA#現況",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "斗栱元件ID" : {
+      "@id" : "https://w3id.org/def/HXA#斗栱元件ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "器物家具代碼" : {
+      "@id" : "https://w3id.org/def/HXA#器物家具代碼"
+    },
+    "部位構造類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#部位構造類型代碼"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "建築風格" : {
+      "@id" : "https://w3id.org/def/HXA#建築風格",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "部位構造ID" : {
+      "@id" : "https://w3id.org/def/HXA#部位構造ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "部位構造" : {
+      "@id" : "https://w3id.org/def/HXA#部位構造"
+    },
+    "磚砌" : {
+      "@id" : "https://w3id.org/def/HXA#磚砌"
+    },
+    "柱類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#柱類型代碼"
+    },
+    "has_工藝" : {
+      "@id" : "https://w3id.org/def/HXA#has_工藝",
+      "@type" : "@id"
+    },
+    "時間" : {
+      "@id" : "https://w3id.org/def/HXA#時間"
+    },
+    "樑枋楹桁元件ID" : {
+      "@id" : "https://w3id.org/def/HXA#樑枋楹桁元件ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "雕刻ID" : {
+      "@id" : "https://w3id.org/def/HXA#雕刻ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "三維屬性" : {
+      "@id" : "https://w3id.org/def/HXA#三維屬性",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "has_雕刻" : {
+      "@id" : "https://w3id.org/def/HXA#has_雕刻",
+      "@type" : "@id"
+    },
+    "樑枋楹桁元件" : {
+      "@id" : "https://w3id.org/def/HXA#樑枋楹桁元件"
+    },
+    "has_師匠" : {
+      "@id" : "https://w3id.org/def/HXA#has_師匠",
+      "@type" : "@id"
+    },
+    "has_習俗類型代碼" : {
+      "@id" : "https://w3id.org/def/HXA#has_習俗類型代碼",
+      "@type" : "@id"
+    },
+    "備註" : {
+      "@id" : "https://w3id.org/def/HXA#備註",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "柱元件ID" : {
+      "@id" : "https://w3id.org/def/HXA#柱元件ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "時間ID" : {
+      "@id" : "https://w3id.org/def/HXA#時間ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "建築物主分區" : {
+      "@id" : "https://w3id.org/def/HXA#建築物主分區",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}
