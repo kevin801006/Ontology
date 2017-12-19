@@ -1,0 +1,2808 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/def/HXA#"
+     xml:base="https://w3id.org/def/HXA"
+     xmlns:HXA="https://w3id.org/def/HXA#"
+     xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="https://w3id.org/def/HXA">
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese, English</dc:language>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A prototype of ontology of Chinese built heritage. The studying case is Huangxi Academy in Taiwan.</rdfs:comment>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yi-Chou LU</terms:creator>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</owl:versionInfo>
+        <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Tian-Yuan Shih
+Alex Ya-Ning Yen
+Chiao-Ling Kuo
+Center for Cultural Sites Rehabilitation and Development</terms:contributor>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology demonstrates the relationship between different components of Huangxi Academy as well as properties within the components. First, user can browse the classes and properties for the hierarchy and then browse the individuals for further understanding.</terms:description>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Huangxi Academy Ontology</terms:title>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-07-17</terms:created>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#title -->
+
+    <owl:AnnotationProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_修復 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_修復">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#修復"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_器物家具代碼 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_器物家具代碼">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#器物家具代碼"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_工具 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_工具">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#工具"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_工藝 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_工藝">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#工藝"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_師匠 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_師匠">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#流派"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#師匠"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_斗栱元件類型代碼 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_斗栱元件類型代碼">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#斗栱元件類型代碼"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_時間 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_時間">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#時間"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_材質 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_材質">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#材料"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_柱元件代碼 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_柱元件代碼">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#柱類型代碼"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_樑枋楹桁代碼 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_樑枋楹桁代碼">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#樑枋楹桁類型代碼"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_磚砌類型代碼 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_磚砌類型代碼">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_空間位置 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_空間位置">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#空間位置"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_習俗 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_習俗">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#習俗"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_習俗類型代碼 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_習俗類型代碼">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#習俗類型代碼"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_部位構造代碼 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_部位構造代碼">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#部位構造類型代碼"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_附屬資訊 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_附屬資訊">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#材料"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#附屬資訊"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_雕刻 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_雕刻">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_雕刻類型代碼 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_雕刻類型代碼">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#雕刻類型代碼"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#has_面層處理與裝飾 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#has_面層處理與裝飾">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#part_of_古蹟 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#part_of_古蹟">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#part_of_部位構造 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/HXA#part_of_部位構造">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/def/HXA#RevitID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#RevitID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#三維屬性 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#三維屬性">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#主管機關名稱 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#主管機關名稱">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#主要構造 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#主要構造">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#使用者 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#使用者">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#附屬資訊"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#修復ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#修復ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#備註 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#備註">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#材料"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#流派"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#空間位置"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#附屬資訊"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#剪黏泥塑ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#剪黏泥塑ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#創建年代 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#創建年代">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#古蹟ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#古蹟ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#材料"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#流派"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#空間位置"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#附屬資訊"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#名稱 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#名稱">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#材料"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#流派"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#圖片 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#圖片">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#材料"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#附屬資訊"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#地址 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#地址">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#守護神 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#守護神">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#流派"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#工具ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#工具ID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#工程類別 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#工程類別">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#工藝ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#工藝ID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#大木"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#布局介紹 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#布局介紹">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#師匠ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#師匠ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#建築物主分區 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#建築物主分區">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#空間位置"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#建築物次分區 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#建築物次分區">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#空間位置"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#建築風格 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#建築風格">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#斗栱元件ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#斗栱元件ID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#日期 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#日期">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#時間ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#時間ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#材質ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#材質ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#材料"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#柱元件ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#柱元件ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#樑枋楹桁元件ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#樑枋楹桁元件ID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#流派ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#流派ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#流派"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#特色 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#特色">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#流派"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#現況 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#現況">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#用途 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#用途">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#附屬資訊"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#發源地 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#發源地">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#流派"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#磚砌ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#磚砌ID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#空間位置ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#空間位置ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#空間位置"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#空間擺設 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#空間擺設">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#空間位置"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#結構形式 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#結構形式">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#總元件ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#總元件ID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#習俗ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#習俗ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#聯絡人 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#聯絡人">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#聯絡單位 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#聯絡單位">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#聯絡地址 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#聯絡地址">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#職別 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#職別">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#說明 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#說明">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#大木"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#材料"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#空間位置"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#連絡電話 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#連絡電話">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#部位構造ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#部位構造ID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#附屬資訊ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#附屬資訊ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#附屬資訊"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#雕刻ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#雕刻ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#面層處理與裝飾ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#面層處理與裝飾ID">
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#剪黏泥塑"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#類型 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#類型">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/def/HXA#類型ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/def/HXA#類型ID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#器物家具代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#柱類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#樑枋楹桁類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#習俗類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#部位構造類型代碼"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻"/>
+        <rdfs:domain rdf:resource="https://w3id.org/def/HXA#雕刻類型代碼"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/def/HXA#修復 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#修復">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class refers to each time of repaires of the Huangxi Academy.</rdfs:comment>
+        <rdfs:label>修復</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#剪黏泥塑 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#剪黏泥塑">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#古蹟 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#古蹟">
+        <rdfs:label>古蹟</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#器物家具 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#器物家具">
+        <rdfs:label>器物家具</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#器物家具代碼 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#器物家具代碼">
+        <rdfs:label>器物家具代碼</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#大木 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#大木">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/HXA#工藝"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#小木 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#小木">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/HXA#工藝"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#工具 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#工具"/>
+    
+
+
+    <!-- https://w3id.org/def/HXA#工藝 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#工藝">
+        <rdfs:label>工藝</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#師匠 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#師匠">
+        <rdfs:label>師匠</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#斗栱元件 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#斗栱元件"/>
+    
+
+
+    <!-- https://w3id.org/def/HXA#斗栱元件類型代碼 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#斗栱元件類型代碼">
+        <rdfs:label>斗栱元件類型代碼</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#時間 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#時間">
+        <rdfs:label>時間</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#材料 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#材料">
+        <rdfs:label>材料</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#柱元件 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#柱元件">
+        <rdfs:label>柱元件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#柱類型代碼 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#柱類型代碼">
+        <rdfs:label>柱類型代碼</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#樑枋楹桁元件 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#樑枋楹桁元件">
+        <rdfs:label>樑枋楹桁元件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#樑枋楹桁類型代碼 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#樑枋楹桁類型代碼">
+        <rdfs:label>樑枋楹桁類型代碼</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#流派 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#流派">
+        <rdfs:label>流派</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#磚砌 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#磚砌">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/HXA#工藝"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#磚砌類型代碼 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#磚砌類型代碼">
+        <rdfs:label>磚砌類型代碼</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#空間位置 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#空間位置">
+        <rdfs:label>空間位置</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#習俗 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#習俗">
+        <rdfs:label>習俗</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#習俗類型代碼 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#習俗類型代碼">
+        <rdfs:label>習俗類型代碼</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#部位構造 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#部位構造">
+        <rdfs:label>部位構造</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#部位構造類型代碼 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#部位構造類型代碼">
+        <rdfs:label>部位構造類型代碼</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#附屬資訊 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#附屬資訊">
+        <rdfs:label>附屬資訊</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#雕刻 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#雕刻">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/HXA#工藝"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#雕刻類型代碼 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#雕刻類型代碼">
+        <rdfs:label>雕刻類型代碼</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/HXA#面層處理與裝飾 -->
+
+    <owl:Class rdf:about="https://w3id.org/def/HXA#面層處理與裝飾">
+        <rdfs:label>面層處理與裝飾</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan10 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan10">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">宋益欽</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化市東芳里彰馬路257巷6號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋面</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">047-523750</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan11 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan11">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">溫誠吉</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台中縣大肚鄉平和街26巷60號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">046-992390</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan12 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan12">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">游龍根</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化市安南里彰鹿路120巷150弄3號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan13 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan13">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">陳春樺</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">桃園市豐林里三民路3段559號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磚雕石作</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥塑剪黏</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan14 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan14">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">李燦煌</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">宜蘭縣員山鄉大安路169號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磚雕石作</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥塑剪黏</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">039-223355</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan15 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan15">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">林茂松</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台北縣萬里鄉萬里村下街32號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磚雕石作</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥塑剪黏</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">032-921103</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan16 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan16">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">陳穎派</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化縣和美鎮還社里北美路99號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">油漆彩繪</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彩繪</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">047-357689</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan17 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan17">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">陳穎郡</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化縣和美鎮還社里北美路99號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">油漆彩繪</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彩繪</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan18 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan18">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">游春重</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化縣員林鎮擺塘村南興里三潭巷6號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磚雕石作</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">石作</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan19 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan19">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">賴茂宣</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化市福山里彰南路1段133號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">其他</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">電器</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">047-322345</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#工藝1"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">林清忠</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台中市樂業路112號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan20 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan20">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">李力輝</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台中縣梧棲鎮中興路178巷84號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">其他</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">燈籠</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">046-560179</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan21 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan21">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">巫長生</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化縣田尾鄉打簾村民生路一段276巷30號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">其他</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植栽</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">048-221329</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan22 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan22">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">林信龍</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台中縣豐原市田心路二段267南巷7弄81號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">木作工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan23 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan23">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">廖金龍</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台中縣潭子鄉潭北村人和路37巷28弄21號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">木作工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan24 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan24">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">蔡松柏</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台中縣清水鎮菁埔里菁埔路36號之5</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥作工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan25 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan25">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">謝進忠</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台南縣將軍鄉西華村7鄰91號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥作工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan26 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan26">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">謝瑞波</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台南縣六甲鄉龍胡村和平街110號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋面</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">瓦作工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan27 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan27">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">劉木通</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台南縣六甲鄉甲東村忠孝街185號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋面</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">瓦作工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan28 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan28">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">廖再順</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">高雄縣杉林鄉集來村通仙巷50號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥塑剪黏</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">剪黏工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan29 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan29">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">洪石玉</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台南縣北門鄉東壁村蚵寮563之10號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥塑剪黏</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">剪黏工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#工藝1"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">陳龍山</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台中市南屯區一善巷7號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan30 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan30">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">洪瑞麟</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台南縣北門鄉東壁村蚵寮641號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥塑剪黏</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥塑工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan31 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan31">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">許哲彥</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">雲林縣北港鎮崇德街14巷3號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥塑剪黏</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">交趾陶工程</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan4">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#工藝1"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">張清德</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台中市大雅區永興路125巷11號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan5">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">蔡讚成</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化縣鹿港鎮頂厝里樂群路96巷6號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">小木</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">雕刻</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">047-784129</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan6 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan6">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">顏正義</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化縣鹿港鎮頂厝里樂群路96巷6號</地址>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">小木</職別>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">雕刻</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan7 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan7">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">黃金發</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化縣鹿港鎮東石里鹿興社區118號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">小木</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">雕刻</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan8 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan8">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">許天福</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">高雄市新興區六合二路76巷7號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">小木</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">雕刻</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Artisan9 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Artisan9">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">蕭深淵</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彰化市秀水鄉彰馬路9鄰109號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋面</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Beam1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Beam1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <has_樑枋楹桁代碼 rdf:resource="https://w3id.org/def/HXA#Beam_code1"/>
+        <三維屬性 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:610mm 寬度:320.0mm 高度:319mm</三維屬性>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">插角</名稱>
+        <樑枋楹桁元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</樑枋楹桁元件ID>
+        <總元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</總元件ID>
+        <部位構造ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</部位構造ID>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Beam2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Beam2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <三維屬性 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:1358.2mm 寬度:190.0mm 高度:130mm</三維屬性>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">三通</名稱>
+        <樑枋楹桁元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</樑枋楹桁元件ID>
+        <總元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</總元件ID>
+        <部位構造ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</部位構造ID>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Beam3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Beam3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#樑枋楹桁元件"/>
+        <三維屬性 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:1227.7mm 寬度:210.0mm 高度:130.0mm</三維屬性>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">員光</名稱>
+        <樑枋楹桁元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</樑枋楹桁元件ID>
+        <總元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</總元件ID>
+        <部位構造ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</部位構造ID>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Beam_code1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Beam_code1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#樑枋楹桁類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">托木</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Beam_code2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Beam_code2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#樑枋楹桁類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">通樑</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Beam_code3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Beam_code3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#樑枋楹桁類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圓光</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Bricklaying1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Bricklaying1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">發卷</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</工藝ID>
+        <磚砌ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</磚砌ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">卷即是圓筒狀,通常以磚,石砌成拱門.</說明>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Bricklaying2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Bricklaying2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#磚砌"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人字砌</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</工藝ID>
+        <磚砌ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</磚砌ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">以長方石塊採四十五度邪氣,第二塊採反方向四十五度斜躺砌成之石牆砌法,依此類推,形成人字形牆面或地板.</說明>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Bricklaying_code1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Bricklaying_code1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">卵石組砌</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Bricklaying_code2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Bricklaying_code2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">發卷</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Bricklaying_code3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Bricklaying_code3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">馬齒</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Bricklaying_code4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Bricklaying_code4">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">龜甲形六角磚組砌</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Bricklaying_code5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Bricklaying_code5">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人字砌</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Bricklaying_code6 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Bricklaying_code6">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平砌</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts10 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts10">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">剪粘泥塑及彩繪修復</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">預備工作，粗胚製作，素燒，釉燒，安裝填實，背景泥塑彩繪畫色，完成。
+ 預備工作，泥偶塑造，碗片黏貼，安裝填實，背景泥塑彩繪畫色，完成。</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts11 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts11">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">牆面工程</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">原有粉刷層剔除，桁木入壁處牆體修復，粉刷灰泥沙漿拌合，表面白灰粉刷。</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts12 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts12">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磚砌</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磚構造為房屋建築的傳統方法之一，其構成方式係以人造磚塊藉水泥砂漿的黏著疊砌而成。主要是將方塊單位集體構成，富有卓越的建築特徵與本身影響力，產生了偉大模造的變化，濃厚組織，色彩美觀，搭配多元化樣式的灰縫處理，更使磚質感覺僕實，造就了可羡的不滅藝術。</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">預備，選材，打截，去荒，彈各向中心線，淨身刨平，復彈中線，開榫斷肩，送交小木師傅細雕，試組，組立，其他處理，完成</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">預備，牆面清理，水泥砂漿打底，打毛，砂漿粉刷打底，尺磚貼面，灰漿粉刷，檢視垂直面，檢視立面，勾縫，完成</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts4">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋面</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">預備，木構架完成，釘置椽條，鋪仰瓦，瓦養，防水處理，粉刷，製作屋脊規帶，屋面累土，蓋瓦，灰漿粉刷，完成</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts5">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彩繪</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">預備，事前準備，清理表面，是否為花材，是花材則花材部分打底，坯土補土，按金打底，按金，雕才彩繪，不是花材則坯土補土，打底，表面是否平整，放樣，彩繪，善後處理，完成</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts6 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts6">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磚雕</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">預備，決定材質，取材放樣，裁製，粗雕，細雕，若為磚雕則表面處理，若為坯雕則窖燒，安裝組立，善後處理，完成</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts7 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts7">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">木作工程</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">木料腐朽部分挖除，木料專用Epoxy拌合，木料榫頭塑形。木柱需位移尺寸以粉筆標示，利用車用千斤頂升高整體步通棟架，整體步通棟架微昇，木柱傾斜度調整後，柱珠位置調整。堪用椽木重新鋪回，以電鑽鑽孔，竹釘製作，堪用椽木重新以竹釘固定。</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts8 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts8">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">油漆工程</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舊構件油漆:表面剝落油漆層刮除，裂縫及表面修補，油漆處理。新構件油漆：接縫及表面修補，紅丹打底，上面漆。</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Crafts9 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Crafts9">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋面工程</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">預備，木構架位移調整，椽木修復，暗厝修復，養瓦鋪設，防水處理，定中央瓦隴位置，屋脊及規帶新作，屋脊及規帶粉刷，屋面累土，舖仰瓦，舖筒瓦或覆瓦，灰漿粉刷，完成</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Custom1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Custom1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#習俗"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">安地磚</名稱>
+        <磚砌ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</磚砌ID>
+        <習俗ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</習俗ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">房屋落成後安放地磚已是安厝之儀式,因施工過程中地板泥土不潔,所以屋頂完成時,在換一層泥土並在其上舖地磚.</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Custom_code1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Custom_code1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#習俗類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">儀式</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Custom_code2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Custom_code2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#習俗類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">風水</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Custom_code3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Custom_code3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#習俗類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">風水</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <has_修復 rdf:resource="https://w3id.org/def/HXA#修復1"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#Crafts2"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan2"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan3"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan4"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#匠師1"/>
+        <has_斗栱元件類型代碼 rdf:resource="https://w3id.org/def/HXA#Dougong_code1"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time10"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time9"/>
+        <has_材質 rdf:resource="https://w3id.org/def/HXA#材質1"/>
+        <has_空間位置 rdf:resource="https://w3id.org/def/HXA#空間擺設1"/>
+        <part_of_部位構造 rdf:resource="https://w3id.org/def/HXA#Structure1"/>
+        <RevitID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">425817</RevitID>
+        <三維屬性 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:864mm 寬度:220mm 高度:345mm</三維屬性>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一斗三升</名稱>
+        <斗栱元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</斗栱元件ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <has_修復 rdf:resource="https://w3id.org/def/HXA#修復1"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#Crafts2"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan2"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan3"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan4"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#匠師1"/>
+        <has_斗栱元件類型代碼 rdf:resource="https://w3id.org/def/HXA#Dougong_code2"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time10"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time9"/>
+        <has_材質 rdf:resource="https://w3id.org/def/HXA#材質1"/>
+        <has_空間位置 rdf:resource="https://w3id.org/def/HXA#空間擺設1"/>
+        <part_of_部位構造 rdf:resource="https://w3id.org/def/HXA#Structure1"/>
+        <RevitID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">394461</RevitID>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柱頭斗</名稱>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:274mm 寬度:274mm 高度:150mm</名稱>
+        <斗栱元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</斗栱元件ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <has_修復 rdf:resource="https://w3id.org/def/HXA#修復1"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#Crafts2"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan2"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan3"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan4"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#匠師1"/>
+        <has_斗栱元件類型代碼 rdf:resource="https://w3id.org/def/HXA#Dougong_code3"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time10"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time9"/>
+        <has_材質 rdf:resource="https://w3id.org/def/HXA#材質1"/>
+        <has_空間位置 rdf:resource="https://w3id.org/def/HXA#空間擺設1"/>
+        <part_of_部位構造 rdf:resource="https://w3id.org/def/HXA#Structure1"/>
+        <RevitID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">466600</RevitID>
+        <三維屬性 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:606mm 寬度:130mm 高度:302mm</三維屬性>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">獅坐</備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">斗抱</名稱>
+        <斗栱元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</斗栱元件ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong4">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <has_修復 rdf:resource="https://w3id.org/def/HXA#修復1"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#Crafts2"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan2"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan3"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan4"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#匠師1"/>
+        <has_斗栱元件類型代碼 rdf:resource="https://w3id.org/def/HXA#Dougong_code4"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time10"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time9"/>
+        <has_材質 rdf:resource="https://w3id.org/def/HXA#材質1"/>
+        <has_空間位置 rdf:resource="https://w3id.org/def/HXA#空間擺設1"/>
+        <part_of_部位構造 rdf:resource="https://w3id.org/def/HXA#Structure1"/>
+        <RevitID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">507643</RevitID>
+        <三維屬性 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:275mm 寬度:130mm 高度:200mm</三維屬性>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">丁頭栱</名稱>
+        <斗栱元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</斗栱元件ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong5">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件"/>
+        <has_修復 rdf:resource="https://w3id.org/def/HXA#修復1"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#工藝1"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan2"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan3"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#Artisan4"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#匠師1"/>
+        <has_斗栱元件類型代碼 rdf:resource="https://w3id.org/def/HXA#Dougong_code5"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time10"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time9"/>
+        <has_材質 rdf:resource="https://w3id.org/def/HXA#材質1"/>
+        <has_空間位置 rdf:resource="https://w3id.org/def/HXA#空間擺設1"/>
+        <part_of_部位構造 rdf:resource="https://w3id.org/def/HXA#Structure1"/>
+        <RevitID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">508647</RevitID>
+        <三維屬性 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:120mm 寬度:120mm 高度:120mm</三維屬性>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">栱尾斗</名稱>
+        <斗栱元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</斗栱元件ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong_code1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong_code1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一斗三升</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong_code2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong_code2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柱頭斗</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong_code3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong_code3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">斗抱</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong_code4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong_code4">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">丁頭栱</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Dougong_code5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Dougong_code5">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#斗栱元件類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">栱尾斗</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Material2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Material2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#材料"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">陶土</名稱>
+        <材質ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</材質ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Pillar1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Pillar1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <三維屬性 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:294.7mm 寬度:294.7mm 高度:676.6mm</三維屬性>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">瓜筒</名稱>
+        <柱元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</柱元件ID>
+        <總元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</總元件ID>
+        <部位構造ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</部位構造ID>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Pillar2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Pillar2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#柱元件"/>
+        <三維屬性 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">長度:283.9mm 寬度:283.9mm 高度:4251.1mm</三維屬性>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">排樓柱</名稱>
+        <柱元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</柱元件ID>
+        <總元件ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</總元件ID>
+        <部位構造ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</部位構造ID>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Pillar_code1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Pillar_code1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#柱類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">瓜筒</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Pillar_code2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Pillar_code2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#柱類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">封柱</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Structure1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Structure1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#部位構造"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time10"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time9"/>
+        <has_部位構造代碼 rdf:resource="https://w3id.org/def/HXA#Structure_code2"/>
+        <part_of_古蹟 rdf:resource="https://w3id.org/def/HXA#磺溪書院"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">木構架</名稱>
+        <布局介紹 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋架以水平的衡量與垂直的瓜柱架成階梯狀，力量自上向下傳達，大樑承受所有的重量，有如抬物之勢。</布局介紹>
+        <結構形式 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">抬樑式</結構形式>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+        <部位構造ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</部位構造ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Structure_code1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Structure_code1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#部位構造類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋頂</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Structure_code2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Structure_code2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#部位構造類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">木構架</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Structure_code3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Structure_code3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#部位構造類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">牆面</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Structure_code4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Structure_code4">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#部位構造類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台基</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Structure_code5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Structure_code5">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#部位構造類型代碼"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">門窗</名稱>
+        <類型ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</類型ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Surface_decoration1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Surface_decoration1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#面層處理與裝飾"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">剪黏泥塑</名稱>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">「剪黏」也稱之為「剪花」，它的製作方式是先以鐵絲紮骨架， 接著以灰泥塑雛形，最後將各種陶片黏在灰泥的表面上。人的臉部則以陶土捏塑燒製後嵌上，這種屬於鑲嵌藝術的工藝品，為我國南方所特有。</說明>
+        <面層處理與裝飾ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</面層處理與裝飾ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1986-07-02</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">修復動工日期</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time10 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time10">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989-02-24</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">山門整修完工</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time11 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time11">
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988-01-15</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">剪黏工程動工</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time12 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time12">
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988-05-11</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">剪黏工程完工</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989-03-02</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">修復竣工日期</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-12-16</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">修復動工日期</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time4">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006-11-07</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">修復竣工日期</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time5">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1986-07-02</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">假設工程動工</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time6 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time6">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988-06-23</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">假設工程完工</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time7 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time7">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988-06-26</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">環境整修動工</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time8 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time8">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989-02-19</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">環境整修完工</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Time9 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Time9">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#時間"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <日期 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1986-10-07</日期>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</時間ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">山門整修動工</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool10 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool10">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碗片、白灰膏、灰匙、毛筆、釉料、利剪</名稱>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泥塑剪黏</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool11 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool11">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">鐵鎚、破碎機、紅磚、鏝刀、灰泥沙漿</名稱>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool2">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">線鋸、雕刻刀組、磨刀石、電動鑽鑿機</名稱>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">小木</工程類別>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool3">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">水線、鉛錘、水矩、木鏝刀、金屬鏝刀、心形鏝刀、勾鏝刀、畫線鏝刀、三角槌、長柄杓、大鐵桶、鐵板、海綿、筆刷、墨斗、捲尺、圓鍬、獨輪車、吊車</名稱>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">圬工</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool4">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">三角槌、木鏝刀、金屬鏝刀、灰板、拌漿桶、尺、長柄灰杓、水桶、水矩、墨斗、捲尺、海綿</工程類別>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋面</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool5">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">頭髮筆、馬尾筆、油畫筆、漆刷、木尺、美工刀、坯刀、砂紙、鐵鎚、噴鎗</名稱>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">油漆彩繪</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool6 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool6">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">電刻刀組、雕鑿刀、鐵鎚、雕刻刀組、磨刀石</名稱>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磚雕石作</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool7 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool7">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">木料專用Epoxy、木屑、車用千斤頂、粉筆、捲尺、電鑽、線鋸、雕刻刀組、磨刀石、竹釘</名稱>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool8 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool8">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不鏽鋼棒、鋼絲網、鋼板、灰泥沙漿、防水毯、瀝青、脊瓦</工程類別>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">油漆彩繪</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#Tool9 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#Tool9">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不鏽鋼棒、鋼絲網、鋼板、灰泥沙漿、防水毯、瀝青、脊瓦</名稱>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">屋面</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#修復1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#修復1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#修復"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#工藝1"/>
+        <has_師匠 rdf:resource="https://w3id.org/def/HXA#匠師1"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time10"/>
+        <has_時間 rdf:resource="https://w3id.org/def/HXA#Time9"/>
+        <has_材質 rdf:resource="https://w3id.org/def/HXA#材質1"/>
+        <修復ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</修復ID>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</時間ID>
+        <時間ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</時間ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#匠師1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#匠師1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#師匠"/>
+        <has_工具 rdf:resource="https://w3id.org/def/HXA#工具1"/>
+        <has_工藝 rdf:resource="https://w3id.org/def/HXA#工藝1"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">陳萬福</名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">台中市豐原區北庄路107號</地址>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</工程類別>
+        <師匠ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</師匠ID>
+        <職別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</職別>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#圖片1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#圖片1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#附屬資訊"/>
+        <圖片 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D:\LU YI-CHOU\中國科大\磺溪書院\磺溪書院photo\山門牌樓\中\DSC_0160.jpg</圖片>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一斗三升</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#工具1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#工具1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工具"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">放樣工具、木工機械、刨刀組、鋸組、大木鑿刀、圓弧鑿刀、其他</名稱>
+        <工具ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</工具ID>
+        <工程類別 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大木</工程類別>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#工藝1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#工藝1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#小木"/>
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#工藝"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">小木雕刻</名稱>
+        <工藝ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</工藝ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">預備，決定雕刻方式，取材，放樣，鋸外形，打粗坯，打細坯，砂磨，彩繪，完成</說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#材質1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#材質1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#材料"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">杉木</名稱>
+        <材質ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</材質ID>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#磺溪書院 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#磺溪書院">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#古蹟"/>
+        <主管機關名稱 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">臺中市政府文化局</主管機關名稱>
+        <地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">臺中市大肚區磺溪里文昌路60號</地址>
+        <建築風格 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">傳統的閩南式合院型態，是一間結合學堂與廟宇的四合院。</建築風格>
+        <現況 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">磺溪書院內祭拜有五尊神明文昌帝君、孚佑帝君、文衡帝君、朱衣星君與魁斗星君，合稱為「五文昌」，是古時科舉時代掌管所有考試的神明。內設有大殿與拜殿，俗稱文昌祠或文昌廟</現況>
+        <聯絡人 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">臺中市大肚區公所</聯絡人>
+        <聯絡單位 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">臺中市文化資產處</聯絡單位>
+        <聯絡地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">臺中市南區復興路3段362號R10</聯絡地址>
+        <連絡電話 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0422290280</連絡電話>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/HXA#空間擺設1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/HXA#空間擺設1">
+        <rdf:type rdf:resource="https://w3id.org/def/HXA#空間位置"/>
+        <備註 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></備註>
+        <古蹟ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</古蹟ID>
+        <建築物主分區 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">山門</建築物主分區>
+        <建築物次分區 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">明間</建築物次分區>
+        <空間位置ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</空間位置ID>
+        <空間擺設 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">位於牌樓左右兩側</空間擺設>
+        <說明 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></說明>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
