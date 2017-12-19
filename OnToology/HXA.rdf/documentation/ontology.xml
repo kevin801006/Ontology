@@ -1136,7 +1136,7 @@ Center for Cultural Sites Rehabilitation and Development</terms:contributor>
 
 
     <owl:Class rdf:about="https://w3id.org/def/HXA#工具">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/HXA#磚砌類型代碼"/>
+        <rdfs:lable rdf:datatype="https://w3id.org/def/HXA#磚砌類型代碼"/>工具</rdfs:label>
     </owl:Class>
     
 
